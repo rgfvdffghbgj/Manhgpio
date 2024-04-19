@@ -5,22 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Steve's Projects">
     <title>Duong Duc Manh</title>
+    <style>
+         body {
+          
+    background-image: url('https://img.lovepik.com/photo/40172/2938.jpg_wh300.jpg');
+    background-size: cover; /* Đảm bảo ảnh nền phủ kín phần nền */
+    padding: 40px 20px 20px; /* Padding top tăng lên để dịch chuyển tâm của background lên trên */
+    background-position: padding;
+    }
+        .center {
+          
+            text-align: center;
+    font-family: 'Roboto', sans-serif; /* Thay đổi phông chữ thành Roboto hoặc bất kỳ phông chữ nào khác mà bạn thích */
+    font-size: 70px; /* Thay đổi kích thước chữ thành 36px hoặc kích thước mong muốn khác */
+          
+        }
+        .center123 {
+          margin: 4px 2px;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+          text-align: center;
+  font-family: 'Roboto', sans-serif; /* Thay đổi phông chữ thành Roboto hoặc bất kỳ phông chữ nào khác mà bạn thích */
+  font-size: 30px; /* Thay đổi kích thước chữ thành 36px hoặc kích thước mong muốn khác */
+  
+  color: rgb(152, 244, 204);
+
+
+  
+
+
+
+
+
+  
+        
+      }
+        .GpioContainer {
+            background-color: #8e176a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+
+      </style>
+      <body></body>
     <link rel="icon" type="image/png" href="../images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    
    </head>
-
 <body oncopy="return false" oncut="return false" onpaste="return false">
-  
+   
   <div class="noselect">
   
   <div class="keypadContainer">
-    <h1 class="TextCenter">Control GPIO</h1>
+    <h1 class="center">Bảo vệ môn lập trình nhúng AUT212</h1>
+
     
     <div class="GpioContainer">
-      <strong>GPIO26</strong>
+      <strong>Công tắc điện phòng khách</strong>
       <br>
       <label class="switch">
         <input type="checkbox" id="GPIO26" disabled >
+       
         <span class="slider round"></span>
       </label>	
       <br>
@@ -29,7 +85,7 @@
     </div>
     
     <div class="GpioContainer">
-      <strong>GPIO20</strong>
+      <strong>Công tắc quạt</strong>
       <br>
       <label class="switch">
         <input type="checkbox" id="GPIO20" disabled>
@@ -41,7 +97,7 @@
     </div>
     
     <div class="GpioContainer">
-      <strong>GPIO21</strong>
+      <strong>Công tắc đèn phòng ngủ</strong>
       <br>
       <label class="switch">
         <input type="checkbox" id="GPIO21" disabled>
@@ -53,7 +109,7 @@
     </div>
     
     <div class="GpioContainer">
-      <strong>GPIO16</strong>
+      <strong>Công tắc chờ</strong>
       <br>
       <label class="switch">
       <input type="checkbox" id="GPIO16" disabled>
@@ -67,7 +123,11 @@
     </div>
     
   </div>
-    
+  <div class="center123">Nhóm trưởng: Dương Đức Mạnh - PP02987</div> <!-- Thay đổi nội dung của phần tử div -->
+  <div class="center123">Thành Viên: Nguyễn Duy Thường - PP02987</div>
+  <div class="center123">Thành Viên: Đoàn Nhật Chung - PP02987</div>
+  <div class="center123">Thành Viên: Vũ Đức Hiếu - PP02987</div>
+
   <!-- include socket.io client side script -->
   <script src="/socket.io/socket.io.js"></script>
 
